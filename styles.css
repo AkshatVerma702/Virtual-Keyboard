@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.keyboard-container {
+    text-align: center;
+}
+
+
+.keyboard {
+    display: inline-block;
+}
+
+.row {
+    margin-bottom: 5px;
+}
+
+.key {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    margin: 3px;
+    cursor: pointer;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    outline: none;
+}
+
+.caps{
+    width: fit-content;
+    padding: 10px;
+}
+
+.space{
+    width: fit-content;
+    padding: 10px;
+}
+
+.pressed{
+    background-color: yellow;
+}
+
+#input-area{
+    margin-bottom: 100px;
+    width: 500px;
+    height: 40px;
+    outline: none;
+}
